@@ -4,9 +4,11 @@ import Navbar from "./components/Navbar";
 import About from "./views/About";
 import Home from './views/Home'
 import Services from "./views/Services";
-import Projects from "./views/Projects";
+
 import LoadingScreen from "./components/LoadingScreen";
 import { ThemeProvider } from "./themeProvider";
+
+import Projects from "./views/Projects";
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -18,19 +20,20 @@ function App() {
     <ThemeProvider>
       <>
 
-        {!loading ? (
+        {/* {!loading ? ( */}
           <div >
             <Navbar />
             <Home />
             <About />
-            <Services />
             <Projects />
-            <Contact />
+            <Services />
+          
+            {/* <Contact /> */}
           </div>
 
-        ) : (
-          <LoadingScreen />
-        )}
+        {/* // ) : (
+        //   <LoadingScreen />
+        // )} */}
       </>
     </ThemeProvider>
 

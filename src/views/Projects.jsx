@@ -5,6 +5,17 @@ import { ThemeContext } from "../themeProvider";
 const Projects = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  const Projecs = [
+    {
+      id: 1,
+      projectName: "Bath and Body works clone",
+      imageUrl:
+        "https://logos-world.net/wp-content/uploads/2020/11/Bath-Body-Works-Symbol.png",
+      descripriction:
+        "In our project, we construct the layout of some pages of Bath & Body Works, creating a visually interesting home page and user-friendly design, After our website was up and running we ensure that it's functioned on all web browsers, testing, and updating as needed.",
+      sourceCode: "https://github.com/Arfeen98/Bathanbodyworks-clone",
+    },
+  ];
 
   return (
     <div
@@ -19,11 +30,11 @@ const Projects = () => {
           What I Built
         </h4>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {Projecs.map((ele)=>
+          {
+            return <Card key={ele.id} {...ele} />;
+          })
+          } 
         </div>
         <a
           href="hello"

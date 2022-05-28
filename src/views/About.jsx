@@ -30,18 +30,18 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              I'm a self-taught web developer and Mobile App Developer with
-              experience in designing new features from ideation to production,
-              implementation of wireframes and design flows into high
-              performance software applications. I take into consideration the
-              user experience while writing reusable and efficient code. I
-              passionately combine good design, technology, and innovation in
-              all my projects, which I like to accompany from the first idea to
-              release.Currently, I'm focused on the backend development.
+              An aspiring Full Stack Web Developer from Masai School having
+              specialization in MERN stack. Self-motivated, logical, curious,
+              observant, multitasking, problem-solving, team player that has the
+              technical skills to write web-based products using JavaScript,
+              HTML, CSS, React, Redux, Bootstrap, and CHAKRA UI. Have a deep
+              passion for coding and looking for a job opportunity in a
+              technology-driven organization that would help to enhance my
+              career and my technical knowledge and at the same time showcase my
+              technical skills to the best of my ability.
             </p>
           </motion.div>
-          <motion.div
-          >
+          <motion.div>
             <h4 className="mt-12 text-3xl font-semibold text-blue-500">
               Technologies and Tools
             </h4>

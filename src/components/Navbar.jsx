@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { ThemeContext } from "../themeProvider";
 import { motion, AnimatePresence } from "framer-motion";
 import Hamburger from "hamburger-react";
+import style from "./Navbar.module.css"
 
 const Navbar = () => {
   const theme = useContext(ThemeContext);
@@ -58,7 +59,7 @@ const Navbar = () => {
                   : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
               }
             >
-              {`<ꪖꪖƙꪖకꫝ కꫝꪖꪹꪑꪖ/>`}
+              <img className={style.SignImage} src="http://prashantprabhu.com/images/signature.png" />
             </a>
           </div>
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">

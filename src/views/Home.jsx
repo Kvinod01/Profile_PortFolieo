@@ -29,7 +29,7 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, I am Aakash
+                Hi, I am Prabhu
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
@@ -38,7 +38,7 @@ const Home = () => {
                     1000,
                     "Full Stack Developer",
                     1000,
-                    "Mobile Developer",
+                    "Wed Developer",
                     1000,
                   ]}
                   loop={Infinity}

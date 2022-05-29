@@ -18,17 +18,18 @@ const Navbar = () => {
       name: "About",
       route: "about",
     },
-    {
-      name: "Services",
-      route: "services",
-    },
+
     {
       name: "Projects",
       route: "projects",
     },
     {
+      name: "Services",
+      route: "services",
+    },
+    {
       name: "Contact",
-      route: "contact",
+      route: "Contact",
     },
   ];
 
@@ -59,7 +60,7 @@ const Navbar = () => {
                   : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
               }
             >
-              <img className={style.SignImage} src="http://prashantprabhu.com/images/signature.png" />
+              <h1 className={style.prabhuRathod}>Prabhu Rathod</h1>
             </a>
           </div>
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">

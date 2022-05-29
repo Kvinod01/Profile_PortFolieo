@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { techStack } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-
+import heroBg from "../assets/giphy.gif";
 const About = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -19,6 +19,23 @@ const About = () => {
           About Me
         </h2>
         <div>
+          <motion.img
+            initial="hidden"
+            whileInView={"visible"}
+            variants={{
+              visible: {
+                y: 0,
+                opacity: 1,
+                transition: {
+                  type: "spring",
+                },
+              },
+              hidden: { opacity: 1, y: 80 },
+            }}
+            src={heroBg}
+            alt=""
+            className="md:w-40 hidden sm:block mx-auto"
+          />
           <motion.div>
             <h4 className="mt-12 text-3xl font-semibold text-blue-500">
               A bit about me

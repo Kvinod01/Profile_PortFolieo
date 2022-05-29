@@ -3,3 +3,13 @@
     height: 50px;
     width: 300px;
 }
+.prabhuRathod
+{
+    font-family: Pacifico,cursive;
+    font-size: 30px;
+}
+.viewItems
+{
+    display: flex;
+    justify-content: space-around;
+}

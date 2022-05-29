@@ -53,11 +53,10 @@ export const techStack = [
 ];
 
 export const contactLinks = [
-  
   {
     name: "Tweeter",
     url: "https://www.seekpng.com/png/full/351-3516255_png-file-svg-twitter-icon-white-square.png",
-    link: "",
+    link: "https://twitter.com/KatravathPrabhu",
   },
   {
     name: "Github",

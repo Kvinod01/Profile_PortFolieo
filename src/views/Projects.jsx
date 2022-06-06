@@ -19,6 +19,7 @@ const Projects = () => {
         "In our project, we construct the layout of some pages of Bath & Body Works, creating a visually interesting home page and user-friendly design, After our website was up and running we ensure that it's functioned on all web browsers, testing, and updating as needed.",
       sourceCode: "https://github.com/Arfeen98/Bathanbodyworks-clone",
       netlifyLink: "https://arfeen98.github.io/Bathanbodyworks-clone/",
+      toolsStack:"Java Script ,HTML ,CSS ,Bootstrap,Github"
     },
     {
       id: 2,
@@ -32,7 +33,7 @@ const Projects = () => {
         "This project is a clone of , which is a health, grooming, and beauty Products website.This website has end-to-end functionalities from Signup/login and searching the Products and adding products and removing the products from the cart page. We had added many sorting techniques to sort the products on their based on their ratings, and prices, alphabetically. We had incorporated an API to automatically detect the user location which has been entered in the shipping address.",
       sourceCode: "https://github.com/kosireddisreeram/unit3_constructweek",
       netlifyLink: "https://dazzling-horse-5169fb.netlify.app/",
-    },
+      toolsStack:"Java Script ,HTML ,CSS ,Bootstrap,Github,Fecth"    },
     {
       id: 3,
       projectName: "Sugar Cosmetics clone",
@@ -47,6 +48,7 @@ const Projects = () => {
       sourceCode: "https://github.com/goutham41/sugarcosmetics-app-clone",
       netlifyLink:
         "https://627903a070c89c2f8de0ca72--netlify-thinks-anurag-pverma-is-great.netlify.app/",
+        toolsStack:"Java Script ,HTML ,CSS ,Bootstrap,Github,ReactJS,Redux"
     },
   ];
 

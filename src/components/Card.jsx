@@ -10,6 +10,7 @@ const Card = (props) => {
     imageUrl2,
     netlifyLink,
     descripriction,
+    toolsStack
   } = props;
   console.log(projectName);
   return (
@@ -85,9 +86,13 @@ const Card = (props) => {
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
           {descripriction}
         </p>
+       
+        <h5 class="mt-2 flex text-x py-3 font-bold tracking-tight text-fuchsia-700 dark:text-blue-500">
+        ToolStack : <p class="mb-3 font-normal text-sky-600 dark:text-gray-400"> {toolsStack}</p>
+        </h5>
         <div className={style.viewItems}>
           <a
-            href={sourceCode}
+            href={sourceCode} target="_blank"
             class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             View Code
@@ -105,7 +110,7 @@ const Card = (props) => {
             </svg>
           </a>
           <a
-            href={netlifyLink}
+            href={netlifyLink} target="_blank"
             class="inline-flex items-center  py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             View site

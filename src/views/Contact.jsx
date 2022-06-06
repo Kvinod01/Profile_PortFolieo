@@ -5,8 +5,9 @@ import { contactLinks } from "../constants";
 
 
 export const Contact = () => {
+  
    return (
-     <div className={style.contact} id="connect">
+     <div className={style.contact} id="contact">
        <div className={style.number}>
          <p>Contact Me</p>
          <p id="phone-number">+91 8008811572</p>
@@ -15,7 +16,7 @@ export const Contact = () => {
            <div className="flex md:justify-start ">
              {contactLinks.map((el) => (
                <a
-                 href={el.link}
+                 href={el.link} target="_blank"
                  className="mr-5 cursor-pointer mt-8 hover:scale-125"
                >
                  <img alt="" className={style.logo} src={el.url} />
@@ -26,7 +27,7 @@ export const Contact = () => {
          </div>
        </div>
        <div className={style.copyright}>
-         No © copyright issues | Designed and developed by Akash
+         copyright issues | Designed and developed by Akash
        </div>
      </div>
    );

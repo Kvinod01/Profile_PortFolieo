@@ -10,6 +10,7 @@ import { ThemeProvider } from "./themeProvider";
 
 import Projects from "./views/Projects";
 import  {Contact}  from "./views/Contact";
+import { Skills } from "./views/Skills";
 
 
 
@@ -27,9 +28,11 @@ function App() {
           <div >
             <Navbar />
             <Home />
+            
             <About />
+            <Skills />
             <Projects />
-            <Services />
+            {/* <Services /> */}
           
            <Contact />
           </div>

@@ -32,8 +32,9 @@ const Home = () => {
           <div className="sm:text-center lg:text-left">
             <h1 className="text-xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <motion.span
+               
                 className={darkMode ? "block text-black" : " text-white"}
-                className={style.test}
+               
               >
                 Hi, I am Prabhu
               </motion.span>
@@ -41,11 +42,11 @@ const Home = () => {
                 <Typical
                   steps={[
                     "Front End Developer",
-                    3000,
+                    4000,
                     "Full Stack Developer",
-                    3000,
+                    4000,
                     "Web Developer",
-                    3000,
+                    4000,
                   ]}
                   loop={Infinity}
                 />
@@ -57,7 +58,7 @@ const Home = () => {
                   ? "mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
-              className={style.test}
+          
             >
               I am a Front-End / Full-Stack Developer.
             </p>

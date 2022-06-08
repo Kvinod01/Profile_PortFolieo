@@ -55,17 +55,17 @@ export const techStack = [
 export const contactLinks = [
   {
     name: "Tweeter",
-    url: "https://www.seekpng.com/png/full/351-3516255_png-file-svg-twitter-icon-white-square.png",
+    url: "https://www.citypng.com/public/uploads/preview/-51615046332ics4gjchvw.png",
     link: "https://twitter.com/KatravathPrabhu",
   },
   {
     name: "Github",
-    url: "https://cdn2.iconfinder.com/data/icons/font-awesome/1792/github-square-512.png",
+    url: "https://w7.pngwing.com/pngs/806/394/png-transparent-blue-animal-logo-github-icon-github-blue-world-social-media.png",
     link: "https://github.com/prabhuRV",
   },
   {
     name: "LinkedIn",
-    url: "https://cdn-icons-png.flaticon.com/512/38/38669.png",
+    url: "https://image.similarpng.com/very-thumbnail/2020/04/Linkedin-logo-3d-button-social-media-png.png",
     link: "https://www.linkedin.com/in/prabhu-katravath-9843941a4/",
   },
 ];

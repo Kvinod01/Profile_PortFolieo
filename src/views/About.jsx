@@ -45,7 +45,7 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              An aspiring Full Stack Web Developer My Name is Katravath Prabhu  from Masai School having
+             I am Katravath Prabhu    An aspiring Full Stack Web Developer from  Masai School having
               specialization in MERN stack. Self-motivated, logical, curious,
               observant, multitasking, problem-solving, team player that has the
               technical skills to write web-based products using JavaScript,

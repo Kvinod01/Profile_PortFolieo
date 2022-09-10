@@ -8,7 +8,7 @@ const About = () => {
   const darkMode = theme.state.darkMode;
   return (
     <div id="about" className={darkMode === true ? "bg-white" : "bg-gray-900"}>
-      <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-1">
+      <div className="max-w-6xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt- pt-20 pb-1">
         <h2
           className={
             darkMode
@@ -34,29 +34,23 @@ const About = () => {
             }}
             src={heroBg}
             alt=""
-            className="md:w-40 hidden sm:block mx-auto"
+            className="md:w-60 hidden sm:block mx-auto"
           />
           <motion.div>
-           
             <p
               className={
                 darkMode
-                  ? "mt-4 text-xl text-justify text-cyan-500"
+                  ? "m-auto mt-4 text-xl text-justify text-cyan-500 "
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-             I am Katravath Prabhu    An aspiring Full Stack Web Developer from  Masai School having
-              specialization in MERN stack. Self-motivated, logical, curious,
-              observant, multitasking, problem-solving, team player that has the
-              technical skills to write web-based products using JavaScript,
-              HTML, CSS, React, Redux, Bootstrap, and CHAKRA UI. Have a deep
-              passion for coding and looking for a job opportunity in a
-              technology-driven organization that would help to enhance my
-              career and my technical knowledge and at the same time showcase my
-              technical skills to the best of my ability.
+              An aspiring full-stack web developer specializing in MERN Stack.
+              Skilled, collaborative, and attentive developer with a drive to
+              develop the most relevant products with more than five
+              collaborative and single personal projects. Willing to learn and
+              work across new technologies in the web development domain.
             </p>
           </motion.div>
-         
         </div>
       </div>
     </div>

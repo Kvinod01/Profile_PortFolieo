@@ -38,15 +38,15 @@ const Home = () => {
               >
                 Hi, I am Prabhu
               </motion.span>
-              <span className="block text-violet-700 z-0 lg:inline">
+              <span className="block text-violet-700 z-0 md:inline">
                 <Typical
                   steps={[
                     "Front End Developer",
-                    4000,
+                    3000,
                     "Full Stack Developer",
-                    4000,
+                    3000,
                     "Web Developer",
-                    4000,
+                    3000,
                   ]}
                   loop={Infinity}
                 />
@@ -60,7 +60,7 @@ const Home = () => {
               }
           
             >
-              I am a Front-End / Full-Stack Developer.
+              I am a Full-Stack Developer.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
@@ -76,7 +76,7 @@ const Home = () => {
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
                 <a
-                  href="https://drive.google.com/file/d/1fuL-f3ZLuiHw7sg5pOYlVG5EMBQjHnAc/view?usp=sharing" target="_blank"
+                  href="https://drive.google.com/file/d/1IyYwsL-4Dz5lFHHjuKJZVXRAj46GXMvl/view?usp=sharing" target="_blank"
                   className="w-20 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-violet-700 md:py-4 md:text-lg md:px-10"
                 >
                   Resume

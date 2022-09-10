@@ -7,11 +7,20 @@ export const Skills = () => {
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
   return (
-    <div  id="skill" className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
+    <div className={darkMode === true ? "bg-white" : "bg-gray-900"}>
+
+    
+    <div  id="skill" className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-20 pb-12" >
          <motion.div>
-            <h4 className="mt-12 text-3xl font-semibold text-blue-500">
-              SKILLS
-            </h4>
+         <h2
+          className={
+            darkMode
+              ? "text-5xl font-bold px-4 md:px-0 text-center"
+              : "text-5xl font-bold px-4 md:px-0 text-center text-white"
+          }
+        >
+          Skills
+        </h2>
             <p
               className={
                 darkMode
@@ -46,6 +55,7 @@ export const Skills = () => {
               </motion.div>
             ))}
           </motion.div>
+    </div>
     </div>
   )
 }

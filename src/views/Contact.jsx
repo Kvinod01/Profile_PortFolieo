@@ -45,14 +45,11 @@ export const Contact = () => {
             +91 8008811572
           </a>
           <h1 className="text-2xl font-bold">Address :</h1>
-          <a
-            href="hello"
-            className="mb-2 mt-2 font-semibold text-blue-700 block uppercase"
-          >
-             Hydrabad, Telangana,
+        
+             Vikarabad, Telangana,
              <br />
             India
-          </a>
+       
           
         </div>
         <div>

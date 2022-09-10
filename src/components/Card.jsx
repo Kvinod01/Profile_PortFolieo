@@ -23,63 +23,11 @@ const Card = (props) => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      {/* <a href="hello">
-        <img class="rounded-t-lg w-full" src={imageUrl} alt="" />
-      </a> */}
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active h-75">
-            <img
-              className="d-block h-100 w-70"
-              src={imageUrl}
-              alt="First slide"
-            />
-          </div>
-          <div className="carousel-item h-75">
-            <img
-              className="d-block h-100 w-70"
-              src={imageUrl1}
-              alt="Second slide"
-            />
-          </div>
-          <div className="carousel-item h-75">
-            <img
-              className="d-block h-100 w-70"
-              src={imageUrl2}
-              alt="Third slide"
-            />
-          </div>
-        </div>
-        <a
-          className="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Next</span>
-        </a>
-      </div>
-      <div class="p-5">
+    
+        <img class="rounded-t-lg w-full h-60" src={imageUrl} alt="" />
+     
+    
+      <div class="p-4">
         <h5 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-blue-500">
           {projectName}
         </h5>
@@ -93,7 +41,7 @@ const Card = (props) => {
         <div className={style.viewItems}>
           <a
             href={sourceCode} target="_blank"
-            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             Github Code
             <svg
@@ -111,7 +59,7 @@ const Card = (props) => {
           </a>
           <a
             href={netlifyLink} target="_blank"
-            class="inline-flex items-center  py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+            class="inline-flex items-center  py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             View site
             <svg

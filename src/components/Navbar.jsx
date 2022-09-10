@@ -46,7 +46,7 @@ const Navbar = () => {
       <nav
         className={
           darkMode
-            ? "bg-white border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
+            ? "bg-white border-gray-200 z-50 shadow-lg md:px-10 px-1 fixed w-full top-0"
             : "bg-gray-700 border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
         }
       >
@@ -66,7 +66,7 @@ const Navbar = () => {
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
             <ul
               class={
-                "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium"
+                "flex flex-col mt-2 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium"
               }
             >
               {links.map((el) => (
@@ -91,13 +91,13 @@ const Navbar = () => {
               {darkMode ? (
                 <img
                   src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-sun-lighting-flaticons-flat-flat-icons.png"
-                  className="w-6 ml-6 cursor-pointer hover:scale-1.50 block"
+                  className="w-6 ml-6 mt-2 mr-2 cursor-pointer hover:scale-1.50 block"
                   alt=""
                 />
               ) : (
                 <img
                   src="https://img.icons8.com/external-prettycons-lineal-color-prettycons/49/000000/external-moon-astrology-and-symbology-prettycons-lineal-color-prettycons.png"
-                  className="w-6 ml-6 cursor-pointer hover:scale-1.50 block"
+                  className="w-6 ml-6 mt-2 mr-2 cursor-pointer hover:scale-1.50 block"
                   alt=""
                 />
               )}
@@ -109,14 +109,14 @@ const Navbar = () => {
               {darkMode ? (
                 <img
                   src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-sun-lighting-flaticons-flat-flat-icons.png"
-                  className="w-6 mr-4 cursor-pointer hover:scale-1.50 block"
+                  className="w-6  mt-1 cursor-pointer hover:scale-1.50 block"
                   alt=""
                 />
               ) : (
                 <img
                   src="https://img.icons8.com/external-prettycons-lineal-color-prettycons/49/000000/external-moon-astrology-and-symbology-prettycons-lineal-color-prettycons.png"
                   alt=""
-                  className="w-6 mr-4 cursor-pointer hover:scale-1.50 block"
+                  className="w-6 mr-4 mt-4 cursor-pointer hover:scale-1.50 block"
                 />
               )}
             </div>

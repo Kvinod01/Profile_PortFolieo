@@ -43,13 +43,26 @@ export const techStack = [
     name: "Heroku",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg",
   },
-  // { name: "Azure", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-plain.svg" },
+  {
+    name: "Express",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+  },
   {
     name: "Git",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
   },
-  // { name: "Docker", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" },
-
+  {
+    name: "mongodb",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+  },
+  {
+    name: "VScode",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+  },
+  {
+    name: "TypeScript",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
+  },
 ];
 
 export const contactLinks = [
@@ -76,5 +89,4 @@ export const serviceData = [
     desc: "Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design user interface design  authoring, including standardised code and proprietary software user experience design and search engine",
     img: "https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-web-development-coding-kiranshastry-lineal-color-kiranshastry.png",
   },
-
 ];

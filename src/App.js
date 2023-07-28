@@ -24,7 +24,7 @@ function App() {
     <ThemeProvider>
       <>
 
-        {/* {!loading ? ( */}
+    
           <div >
             <Navbar />
             <Home />
